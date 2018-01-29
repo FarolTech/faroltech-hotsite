@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { DarkContainerComponent } from './dark-container/dark-container.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ServicesComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    DarkContainerComponent
   ],
   imports: [
     BrowserModule
