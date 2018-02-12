@@ -44,7 +44,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #FFE79B !important;
 }
 
 .bg-dark {
@@ -52,7 +52,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: #7F7F7F;
 }
 
 section {
@@ -314,4 +314,12 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.block-header {
+  margin-top: 4px;
+  margin-bottom: 22px;
+  font-size: 50px;
+  position: relative;
+  color: #30A79B !important;
 }
