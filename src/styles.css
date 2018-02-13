@@ -17,7 +17,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #FFE79B;
 }
 
 hr.light {
@@ -52,6 +52,10 @@ h6 {
 
 .bg-dark {
   background-color: #212529 !important;
+}
+
+.bg-darkgrey {
+  background-color: #4D4D4D !important;
 }
 
 .text-faded {
@@ -130,6 +134,18 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
+}
+
+.white {
+  color: #FFF;
+}
+
+.yellow {
+  color: #FFE79B;
+}
+
+.text-muted {
+  color: #7F7F7F !important;
 }
 
 @media (min-width: 992px) {
@@ -290,7 +306,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: #30A79B !important;
 }
 
 .btn {
